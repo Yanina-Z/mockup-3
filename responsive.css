@@ -1,0 +1,168 @@
+/***********SLIDE 1*************/
+
+@media screen and (min-width: 768px){
+
+
+.slide1 {
+  min-height: 700px;
+}
+
+ .slide1 .inner {
+  padding: 30px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.header h2 {
+  order: -1;
+  margin: 0;
+}
+
+.user {
+  flex-grow: 2;
+  text-align: right;
+}
+
+.slide1 h1 {
+  font-size: 52px;
+  width: 454px;
+  margin: 155px auto 20px;
+}
+
+.slide1 p {
+  font-size: 24px;
+}
+
+.slide1 button {
+  width: 225px;
+  margin-top: 44px
+}
+
+/**********SLIDE 2*********/
+
+.slide2 h1 {
+  font-size: 24px;
+  color: #444;
+  margin-top: 95px;
+}
+
+.slide2 .inner {
+  display: flex;
+}
+
+.step h1 {
+  flex-grow: 1;
+  color: #fff;
+  margin-top: 18px;
+}
+
+.slide2 .step {
+  min-height: 400px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/**********SLIDE 3**********/
+
+.partners {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 135px;
+  margin-right: 135px;
+}
+
+.partner {
+  width: 50%;
+  box-sizing: border-box;
+}
+
+/***********SLIDE 4**********/
+
+.slide4 h2 {
+  margin: 80px auto 30px;
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10px;
+}
+
+.look {
+  width: calc(33% - 20px);
+  box-sizing: border-box;
+  height: 310px;
+  margin: 10px;
+}
+
+.opt6, .opt5 {
+  width: calc(66% - 20px);
+  max-width: 66%;
+}
+
+/**********SLIDE 5**********/
+
+.slide5 h2{
+  margin-top: 85px;
+}
+
+.slide5 p {
+  margin-top: 43px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+}
+
+.slide5 button {
+  margin-top: 0;
+  margin-left: 10px;
+  margin-bottom: 100px;
+  width: 172px;
+}
+
+footer .inner {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.col {
+  width: calc(100%/4);
+  text-align: left;
+}
+
+.col-4 {
+  text-align: right;
+}
+
+footer .inner .col-2 ul li {
+  display: block;
+}
+
+footer .inner .col-2 ul {
+  margin-left: 0;
+}
+
+}
+
+
+@media screen and (min-width: 1024px) {
+
+/***********SLIDE 3*********/
+
+.partner {
+  width: 25%;
+}
+
+.partners {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+}
